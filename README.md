@@ -10,9 +10,9 @@ Inserir e gerenciar dados em um banco MongoDB usando Mongoose.
 
 Servir como exemplo prático para aprendizado e para mostrar meu nível técnico em processos seletivos backend.
 
-2️⃣ O que a aplicação faz
+## O que a aplicação faz
 
-Nesta aplicação, eu:
+Nesta aplicação:
 
 Criei um servidor HTTP que responde a requisições.
 
@@ -30,7 +30,7 @@ O backend valida e salva os dados no MongoDB.
 
 Recebo uma resposta com status de sucesso ou erro.
 
-3️⃣ Tecnologias que utilizei
+## Tecnologias que utilizei
 
 Node.js – Ambiente de execução do JavaScript
 
@@ -42,7 +42,7 @@ Mongoose – ODM para modelar e validar dados
 
 npm – Gerenciamento de pacotes
 
-4️⃣ Como baixar e rodar a aplicação
+## Como baixar e rodar a aplicação
 
 Para rodar o projeto localmente, você pode fazer o seguinte:
 
@@ -52,12 +52,12 @@ git clone https://github.com/kaiqueazevedo/Inser-o-de-Dados-node.git
 cd Inser-o-de-Dados-node
 
 
-Instalar dependências
+## Instalar dependências
 
 npm install
 
 
-Configurar o banco de dados
+## Configurar o banco de dados
 
 Crie um arquivo .env (ou configure direto no código) com a URL do MongoDB:
 
@@ -65,18 +65,18 @@ MONGO_URI=mongodb://localhost:27017/nomeDoSeuDB
 PORT=3000
 
 
-Rodar a aplicação
+## Rodar a aplicação
 
 npm start
 
 
-Testar endpoints
+## Testar endpoints
 
 A API estará disponível em http://localhost:3000
 
 Você pode usar Postman, Insomnia ou curl para enviar requisições POST e inserir dados.
 
-5️⃣ Estrutura do projeto
+## Estrutura do projeto
 
 Organizei o código da seguinte forma:
 
@@ -88,7 +88,7 @@ Inser-o-de-Dados-node/
 ├─ app.js        # Arquivo principal, onde inicializo o servidor Express
 ├─ package.json  # Dependências e scripts
 
-6️⃣ Benefícios e Aplicações
+## Benefícios e Aplicações
 
 Com este projeto, consigo:
 
